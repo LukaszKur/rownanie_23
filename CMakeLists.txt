@@ -1,7 +1,9 @@
-cmake_minimum_required(VERSION 3.8)
-project(23_11_2017_programowanie)
+cmake_minimum_required(VERSION 2.8.4)
+project(rownanie_kw_tdd)
 
 set(CMAKE_C_STANDARD 99)
 
 set(SOURCE_FILES main.c)
-add_executable(23_11_2017_programowanie ${SOURCE_FILES})
+add_executable(rownanie_kw_tdd ${SOURCE_FILES})
+
+target_link_libraries(rownanie_kw_tdd m)
